@@ -23,10 +23,7 @@ export default function TabTwoScreen() {
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText
-          type="title"
-          style={{
-            fontFamily: Fonts.rounded,
-          }}>
+          className='text-blue-500'>
           Explore
         </ThemedText>
       </ThemedView>
